@@ -18,8 +18,8 @@ def display_board(board):
     print(' ' + colored(board[6]) + ' | ' + colored(board[7]) + ' | ' + colored(board[8]))
     print()
 
-def player_choice():
-    symbol = ''
+def player_choice():m
+    symbol = ''3
     while symbol not in ['X', 'O']:
         symbol = input(Fore.GREEN + "Do you want to be X or O? " + Style.RESET_ALL).upper()
     if symbol == 'X':
